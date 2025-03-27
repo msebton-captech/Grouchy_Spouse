@@ -25,9 +25,9 @@ A fun project that leverages multi-platform audio to produce a grouchy version o
     git clone https://github.com/msebton-captech/Grouchy_Spouse.git
     ```
 
-2. Create a [system_prompt.txt](http://_vscodecontentref_/0) file in the project directory with the desired system prompt content.
+2. Review the ```system_prompt.txt``` file in the project directory. If necessary, modify it to your desired system prompt content.
 
-3. Update the API keys in the [InitializeClients](http://_vscodecontentref_/1) method in [Program.cs](http://_vscodecontentref_/2):
+3. Update the API keys in the ```InitializeClients``` method in ``Program.cs``:
     ```csharp
     openAiToken = config["OpenAiToken"];
     subscriptionKey = config["SpeechServiceSubscriptionKey"];
